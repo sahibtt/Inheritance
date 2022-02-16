@@ -1,0 +1,33 @@
+Inheritance obyekt yönümlü proqramlaşdırma (OOP) dillərinin əsas anlayışlarından biridir. Bu, bir sıra atributları və metodları paylaşan siniflər iyerarxiyası üçün başqa bir sinifdən bir sinif əldə edə biləcəyiniz bir mexanizmdir.
+Inheritance OOP-un (Obyekt yönümlü proqramlaşdırma) mühüm sütunudur. Bu, bir sinfin digər sinfin xüsusiyyətlərini (sahələri və metodlarını) miras almasına icazə verən C#-da mexanizmdir.
+
+Əhəmiyyətli terminologiya:
+
+Super Sinif: Xüsusiyyətləri miras qalan sinif super sinif (və ya əsas sinif və ya ana sinif) kimi tanınır.
+Alt sinif: Digər sinfi miras alan sinif alt sinif (və ya törəmə sinif, genişləndirilmiş sinif və ya uşaq sinif) kimi tanınır. Alt sinif supersinif sahələri və metodlarına əlavə olaraq öz sahələrini və metodlarını əlavə edə bilər.
+Yenidən istifadə oluna bilənlik: Varislik “yenidən istifadə oluna bilənlik” anlayışını dəstəkləyir, yəni biz yeni sinif yaratmaq istədikdə və artıq istədiyimiz kodun bəzilərini özündə birləşdirən sinif olduqda, yeni sinfimizi mövcud sinifdən əldə edə bilərik. Bununla biz mövcud sinfin sahələrindən və metodlarından yenidən istifadə edirik.
+
+Siz ondan müxtəlif növ istisnalar elan etmək, mövcud çərçivələrə fərdi məntiq əlavə etmək və hətta domen modelinizi verilənlər bazası ilə əlaqələndirmək üçün istifadə edə bilərsiniz.
+
+İş stansiyanızda daha yaxşı kod yazmaq üçün Stackify-ın pulsuz kod profilini, Prefiksi sınayın. Prefiks .NET, Java, PHP, Node.js, Ruby və Python ilə işləyir.
+
+Inheritance, bir sinfin digər sinfin atribut və metodlarını miras alması prosedurudur. Xassələri və metodları miras qalan sinif Ana sinif kimi tanınır. Və ana sinifdən xassələri miras alan sinif Uşaq sinifidir.
+
+Maraqlısı ondan ibarətdir ki, irsi xüsusiyyətlər və metodlarla yanaşı, uşaq sinif öz xüsusiyyətlərinə və metodlarına malik ola bilər.
+
+Obyekt yönümlü proqramlaşdırmada varislik formaları
+Valideyn və uşaq siniflərinin iştirakına əsaslanan vərəsəliyin beş forması var.
+
+ 
+
+1. Tək miras
+Bu, bir sinifin yalnız bir ana sinfi miras aldığı irsiyyət formasıdır. Bu, mirasın sadə formasıdır və ona görə də sadə vərəsəlik adlanır.
+Burada Uşaq sinfi yalnız bir sinif Valideynini miras alır, ona görə də bu, Tək irsiliyin nümunəsidir.
+2. Çoxlu varislik
+Bir sinif birdən çox ana sinfi miras aldıqda miras çoxlu mirasa çevrilir. Müxtəlif ana siniflərdən xassələri miras aldıqdan sonra uşaq sinif onların bütün obyektlərinə çıxış əldə edir.
+3. Çoxsəviyyəli Miras
+Məsələn, sinif_1 sinif_2 tərəfindən miras alınır və bu sinif_2 də class_3 tərəfindən miras alınır və bu proses davam edir. Bu çoxsəviyyəli miras kimi tanınır.
+4. İerarxik varislik
+Bu vəziyyətdə müxtəlif Uşaq sinifləri tək Ana sinifi miras alır. Vərəsəliyin təqdimatında verilmiş misal BMW və Audi sinifləri Avtomobil sinifini miras qoyduğu üçün İerarxik miras nümunəsidir.
+5. Hibrid Miras
+Birdən çox miras formasının birləşməsi olduqda, hibrid miras kimi tanınır.
